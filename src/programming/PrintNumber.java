@@ -1,6 +1,5 @@
 package programming;
 
-import java.math.BigInteger;
 import java.util.Scanner;
 
 public class PrintNumber {
@@ -16,6 +15,7 @@ public class PrintNumber {
 		printSum(n);
 		printMul(n);
 		sc.close();
+		
 	}
 
 	public static void printMul(int n) {
@@ -25,14 +25,14 @@ public class PrintNumber {
 		}
 		System.out.println("Product: " + prod);
 	}
-	
+
 	public static void printSum(int n) {
 		int sum = 0;
-		for(int i =0; i <= n; i++) {
+		for (int i = 0; i <= n; i++) {
 			sum = sum + i;
 		}
 		System.out.println("Sum: " + sum);
-	
+
 	}
 
 	private static void printEvenSum1_N(int n) {
